@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shree Tharmo Packaging</title>
+    <link rel="icon" href="/images/logo.webp" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#mainNav"
+    data-bs-offset="80"
+    tabindex="0"
+  >
+    <!-- NAVBAR -->
+    <nav
+      id="mainNav"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img
+            src="images/logo.webp"
+            alt="logo"
+            class="me-2 logo-img"
+            onerror="this.style.display='none'"
+          />
+          <span class="brand-text">Shree Tharmo Packaging</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navCollapse">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html" target="_blank"
+                >Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" target="_blank">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" target="_blank"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- products -->
+    <section id="products" class="py-5 bg-light">
+      <div class="container">
+        <div class="section-header text-center mb-4">
+          <h2>Products</h2>
+          <p class="text-muted">
+            A few product shots from our production and finished models.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Foam Roll -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/foam.webp"
+                class="card-img-top"
+                alt="Foam Roll"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Foam Roll</h5>
+                <p class="card-text text-muted small">
+                  Used for wrapping products to protect from scratches, dust,
+                  and minor impacts during transit. Ideal for glass,
+                  electronics, furniture parts, and delicate surfaces.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Foam Roll"
+                    data-img="images/foam.webp"
+                    data-desc="Pattern: Foam Roll. Type: Foam. Price: Contact for quote."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-info text-dark">Roll</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Safety Lock Thermocol Packaging -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/safetylock.webp"
+                class="card-img-top"
+                alt="Safety Lock Thermocol Packaging"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Safety Lock Thermocol Packaging</h5>
+                <p class="card-text text-muted small">
+                  Designed with interlocking edges to hold products firmly in
+                  place. Prevents movement inside the box and provides strong
+                  protection against shocks and breakage.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Safety Lock Thermocol Packaging"
+                    data-img="images/safetylock.webp"
+                    data-desc="Moulded cavities to secure bottles and jars. Ideal for food & pharma packing."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-warning text-dark">Box</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- EPS Foam Packaging -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/foam-packaging.jpg"
+                class="card-img-top"
+                alt="EPS Foam Packaging"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">EPS Foam Packaging</h5>
+                <p class="card-text text-muted small">
+                  Lightweight yet durable packaging made with expanded
+                  polystyrene. Provides excellent cushioning and insulation for
+                  fragile and high-value items.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Car Model"
+                    data-img="images/epsfoam.webp"
+                    data-desc="Pattern: Plain. Type: Car Model. Suitable for gifts and teaching aids."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-success text-dark">Foam</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row g-4">
+          <!-- Battery Thermocol Packaging -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/Battery Thermocol Packaging.webp"
+                class="card-img-top"
+                alt="Battery Thermocol Packaging"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Battery Thermocol Packaging</h5>
+                <p class="card-text text-muted small">
+                  Specially designed moulded thermocol to securely hold
+                  batteries in place. Protects against impact, vibration, and
+                  leakage during storage and transportation.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Battery Thermocol Packaging"
+                    data-img="images/Battery Thermocol Packaging.webp"
+                    data-desc="Pattern: Battery Thermocol Packaging. Type: Foam. Price: Contact for quote."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-info text-dark">Packaging</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CCTC Camera Foam Packaging-->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/CCTC Camera Foam Packaging.webp"
+                class="card-img-top"
+                alt="CCTC Camera Foam Packaging"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">CCTC Camera Foam Packaging</h5>
+                <p class="card-text text-muted small">
+                  Custom foam packaging to safely fit CCTV cameras and
+                  accessories. Prevents damage from shocks, dust, and movement
+                  during transit.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="CCTC Camera Foam Packaging"
+                    data-img="images/safetylock.webp"
+                    data-desc="Moulded cavities to secure bottles and jars. Ideal for food & pharma packing."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-warning text-dark">Box</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cylinder Thermocol Packaging -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/cylindertharmocolpacking.jpg"
+                class="card-img-top"
+                alt="Cylinder Thermocol Packaging"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Cylinder Thermocol Packaging</h5>
+                <p class="card-text text-muted small">
+                  Moulded thermocol packaging designed for cylindrical products.
+                  Provides strong cushioning and stability to prevent rolling,
+                  impact damage, and breakage.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Car Model"
+                    data-img="images/epsfoam.webp"
+                    data-desc="Pattern: Plain. Type: Car Model. Suitable for gifts and teaching aids."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-success text-dark">Foam</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div class="row g-4">
+          <!-- Gas Regulator Thermocol Packaging -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/Gas Regulator Thermocol Packaging.webp"
+                class="card-img-top"
+                alt="Gas Regulator Thermocol Packaging"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Gas Regulator Thermocol Packaging</h5>
+                <p class="card-text text-muted small">
+                  Custom-moulded thermocol packaging designed to securely hold
+                  gas regulators. Protects from impact, vibration, and damage
+                  during handling and transportation.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Gas Regulator Thermocol Packaging"
+                    data-img="images/Gas Regulator Thermocol Packaging.webp"
+                    data-desc="Pattern: Foam Roll. Type: Foam. Price: Contact for quote."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-info text-dark">Roll</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tap Geyser Thermocol Packaging-->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/Tap Geyser Thermocol Packaging.webp"
+                class="card-img-top"
+                alt="Tap Geyser Thermocol Packaging"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Tap Geyser Thermocol Packaging</h5>
+                <p class="card-text text-muted small">
+                  Precisely moulded thermocol packaging for tap geysers. Ensures
+                  safe positioning and protection against shocks, scratches, and
+                  breakage during transit.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Tap Geyser Thermocol Packaging"
+                    data-img="images/Tap Geyser Thermocol Packaging.webp"
+                    data-desc="Moulded cavities to secure bottles and jars. Ideal for food & pharma packing."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-warning text-dark">Box</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- EPS Foam Packaging -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/epsfoam.webp"
+                class="card-img-top"
+                alt="EPS Foam Packaging"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">EPS Foam Packaging</h5>
+                <p class="card-text text-muted small">
+                  Lightweight yet durable packaging made with expanded
+                  polystyrene. Provides excellent cushioning and insulation for
+                  fragile and high-value items.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Car Model"
+                    data-img="images/epsfoam.webp"
+                    data-desc="Pattern: Plain. Type: Car Model. Suitable for gifts and teaching aids."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-success text-dark">Foam</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row g-4">
+          <!-- Building Model -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/bldmodel.jpeg"
+                class="card-img-top"
+                alt="Thermocol Building Model"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Thermocol Building Model</h5>
+                <p class="card-text text-muted small">
+                  Architectural model pieces for exhibitions and displays.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Thermocol Building Model"
+                    data-img="images/bldmodel.jpeg"
+                    data-desc="Pattern: Plain. Type: Building Model. Price: Contact for quote."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-info text-dark">Model</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottle / Mug Packaging -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/bottlemodel.jpeg"
+                class="card-img-top"
+                alt="Thermocol Bottle Packaging"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Bottle / Mug Packaging</h5>
+                <p class="card-text text-muted small">
+                  Moulded cavities for jars, bottles, and fragile items to
+                  ensure safe transit and reduce the risk of damage.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Bottle / Mug Packaging"
+                    data-img="images/bottlemodel.jpeg"
+                    data-desc="Moulded cavities to secure bottles and jars. Ideal for food & pharma packing."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-warning text-dark">Box</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Car Model -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/carmodel.jpeg"
+                class="card-img-top"
+                alt="Thermocol Car Model"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Thermocol Car Model</h5>
+                <p class="card-text text-muted small">
+                  Decorative and educational car shapes — used for projects,
+                  displays and toys.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Car Model"
+                    data-img="images/carmodel.jpeg"
+                    data-desc="Pattern: Plain. Type: Car Model. Suitable for gifts and teaching aids."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-success text-dark">Model</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Next row -->
+        <div class="row g-4 mt-2">
+          <!-- House Model -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/housemodel.jpeg"
+                class="card-img-top"
+                alt="Thermocol House Model"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Thermocol House Model</h5>
+                <p class="card-text text-muted small">
+                  Finished house model with fencing — perfect for demonstration
+                  displays.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="House Model"
+                    data-img="images/housemodel.jpeg"
+                    data-desc="Decorative house model with fence. Used for display and gifts."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-info text-dark">Model</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Refrigerator/White Box / Ref Box -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/refbox.jpeg"
+                class="card-img-top"
+                alt="Thermocol Refrigerator Box"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">
+                  Thermocol Refrigerator / Packaging Box
+                </h5>
+                <p class="card-text text-muted small">
+                  Thermocol sheets and shaped boxes for refrigerator and
+                  insulated packaging.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Refrigerator Packaging Box"
+                    data-img="images/refbox.jpeg"
+                    data-desc="Insulated thermocol box suitable for refrigerator and perishables."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-warning text-dark">Box</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Temple Model -->
+          <div class="col-md-4">
+            <div class="card product-card h-100 shadow-sm">
+              <img
+                src="images/templemodel.jpeg"
+                class="card-img-top"
+                alt="Thermocol Temple Model"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Thermocol Temple Model</h5>
+                <p class="card-text text-muted small">
+                  Intricate temple models for decorative and ceremonial
+                  purposes.
+                </p>
+                <div
+                  class="mt-auto d-flex justify-content-between align-items-center"
+                >
+                  <button
+                    class="btn btn-sm btn-outline-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#productModal"
+                    data-title="Temple Model"
+                    data-img="images/templemodel.jpeg"
+                    data-desc="Detailed temple model in thermocol, used for decorative & cultural displays."
+                  >
+                    View
+                  </button>
+                  <span class="badge bg-info text-dark">Model</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="py-4 bg-white text-dark">
+      <div class="container d-flex justify-content-between align-items-center">
+        <h6>&copy; <span id="year"></span> Shree Tharmo Packaging</h6>
+
+        <!-- Social Media Links -->
+        <div class="socialmedialinks">
+          <div class="icons">
+            <a href="https:/www.youtube.com" target="_blank">
+              <i class="fa-brands fa-youtube" style="color: #9d1313">Youtube</i>
+            </a>
+          </div>
+          <div class="icons">
+            <a href="https:/www.instagram.com" target="_blank"
+              ><i class="fa-brands fa-square-instagram" style="color: #e1306c"
+                >Instagram</i
+              >
+            </a>
+          </div>
+          <div class="icons">
+            <a href="https:/www.facebook.com" target="_blank"
+              ><i class="fa-brands fa-square-facebook" style="color: #0d5aa7"
+                >Facebook</i
+              >
+            </a>
+          </div>
+          <div class="icons">
+            <a href="https://wa.me/8999383971"
+              ><i class="fa-brands fa-square-whatsapp" style="color: #3ed152"
+                >Whatsapp</i
+              >
+            </a>
+          </div>
+        </div>
+        <div>
+          <a href="index.html" class="text-dark me-3">Home</a>
+          <a href="products.html" class="text-dark me-3">Products</a>
+          <a href="contact.html" class="text-dark">Contact</a>
+        </div>
+      </div>
+    </footer>
+    <!-- PRODUCT MODAL -->
+    <div class="modal fade" id="productModal" tabindex="-1">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="productModalLabel">Product</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row g-3">
+              <div class="col-md-6 text-center">
+                <img
+                  id="productModalImg"
+                  src=""
+                  alt="product"
+                  class="img-fluid rounded shadow-sm"
+                />
+              </div>
+              <div class="col-md-6">
+                <h5 id="productModalTitle"></h5>
+                <p id="productModalDesc" class="text-muted"></p>
+                <p><strong>Price:</strong> Contact for quote</p>
+                <a class="btn btn-primary" href="#contact">Request Quote</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LIGHTBOX MODAL (Gallery) -->
+    <div class="modal fade" id="lightboxModal" tabindex="-1">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content bg-transparent border-0">
+          <div class="modal-body p-0">
+            <button
+              type="button"
+              class="btn-close btn-close-white position-absolute top-0 end-0 m-3"
+              data-bs-dismiss="modal"
+            ></button>
+            <img
+              id="lightboxImg"
+              src=""
+              class="img-fluid w-100 rounded"
+              alt="Large view"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS (bundle includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
